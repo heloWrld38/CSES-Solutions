@@ -1,17 +1,14 @@
 #include <bits/stdc++.h>
-
 using namespace std;
 typedef pair<int,int> pii;
 #define x first
 #define y second
-
 const int h[] = {1, -1, 0, 0}, v[] = {0, 0, 1, -1};
 
 bool vis[1000][1000];
 char c, par[1000][1000], ans[1000000];
 int N, M, sx, sy, ex, ey, dist[1000][1000];
 queue<pii> Q;
-
 
 int main(){
     scanf("%d %d", &N, &M);
